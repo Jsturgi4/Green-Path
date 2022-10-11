@@ -61,11 +61,3 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 * Option to calculate reduction, if yes then option to sign in and save data, if not then treated as regular transportation look up
 
 
-## Wireframes
-<img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
-
-### [BONUS] Digital Wireframes & Mockups
-<img src="https://i.imgur.com/lYHn37F.jpg" height=200>
-
-### [BONUS] Interactive Prototype
-<img src="https://i.imgur.com/AiKfE5g.gif" width=200>
