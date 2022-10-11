@@ -54,10 +54,12 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 
 
 **Flow Navigation** (Screen to Screen)
-* Forced Log-in -> Account creation if no log in is available
-* Music Selection (Or Queue if Optional) -> Jumps to Chat
-* Profile -> Text field to be modified. 
-* Settings -> Toggle settings
+* Home screen with prominently displayed navigation options....maybe an intro of somesort? 
+* If Log-in -> Account 
+* If not log in -> choose route
+* Choose route -> produce route options
+* Option to calculate reduction, if yes then option to sign in and save data, if not then treated as regular transportation look up
+
 
 ## Wireframes
 <img src="https://i.imgur.com/9CrjH1K.jpg" width=800><br>
