@@ -32,27 +32,26 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 **Optional Nice-to-have Stories**
 
 * Multiple green transportation options. 
+* A 'what if' section where a user could predict if they took X route Y times a year what the total reduction in carbon footprint would be. 
 
 ### 2. Screen Archetypes
 
 * Login 
 * Optional user registers an account - User signs up or logs into their account
 * User chooses country, city, state. We will start with 1 major city for demo purposes. 
-* Upon selecting route the app will generate carbon reduction for this one time.
+* Upon selecting route the app will generate carbon reduction for this one time transportation option.
 * User will have the option to save this data to their account. 
+* A screen that can calculate long term 'what ifs'.
 
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* Music selection
-* Profile
-* Settings
+* Find Routes
+* Account sign in
+* Quick Calculate (one time and long term)
 
-Optional:
-* Music/Encounter Queue
-* Discover (Top Choices)
 
 **Flow Navigation** (Screen to Screen)
 * Forced Log-in -> Account creation if no log in is available
