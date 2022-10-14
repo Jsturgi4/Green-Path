@@ -1,4 +1,4 @@
-# TravelTracker Group Project #
+# Green Path Group Project #
 
 ## Table of Contents
 1. [Overview](#Overview)
