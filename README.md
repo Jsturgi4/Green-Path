@@ -67,5 +67,5 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 
 | HTTP Verb     | End Point     | Description   |
 | ------------- | ------------- |-------------  |
-| 'get          | Content Cell  | Content Cell |
+| 'get'          | Content Cell  | Content Cell |
 | 'get'         | Content Cell  |              |
