@@ -66,6 +66,7 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 
 **Models**
 - Vehicles
+
  | Property      | Type     | Description |
  | ------------- | -------- | ------------|
  |vid|string| Alphanumeric string representing the vehicle ID (ie. bus number)|
