@@ -66,6 +66,13 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 
 
 | HTTP Verb     | End Point     | Description   |
-| ------------- | ------------- |-------------  |
-| 'get'          | Content Cell  | Content Cell |
-| 'get'         | Content Cell  |              |
+| -------------  | ------------- |-------------  |
+| `get`          | bustime-response  | root element of response document |
+| `get`          | error  |  Message if the processing request results in an error |
+| `get`          | vehicle  |  Encapsulates all information for a given vehicle |
+| `get`          | vid  | Alphaneumeric number representing the bus ID |
+| `get`          | tmstmp  | date and local time of teh last positional update of the vehicle|
+| `get`          | lat  |  latitude of the vehicle |
+| `get`          | lon  |  longitude of the vehicle |
+| `get`          | hdg  | heading of vehicle as a 360 value |
+
