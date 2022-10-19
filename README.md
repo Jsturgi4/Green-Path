@@ -65,3 +65,7 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 ![Travel Tracker - CodePath Group 16](https://user-images.githubusercontent.com/105025243/195842692-c6ee4e5a-49bd-43a2-9086-990968121a0b.png)
 
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
