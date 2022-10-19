@@ -64,6 +64,19 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
 
 ![Travel Tracker - CodePath Group 16](https://user-images.githubusercontent.com/105025243/195842692-c6ee4e5a-49bd-43a2-9086-990968121a0b.png)
 
+**Models**
+- Vehicles
+ | Property      | Type     | Description |
+ | ------------- | -------- | ------------|
+ |vid|string| Alphanumeric string representing the vehicle ID (ie. bus number)|
+ |tmstmp|string| Date and local time of the last positional update of the vehicle|
+ |lat|string|Latitude position of the vehicle in decimal degrees|
+ |lon|string|Longitude position of the vehicle in decimal degrees |
+ |hdg|string|Heading of vehicle as a 360o value, where 0o is North, 90o is East, 180o is South and 270o is West|
+ |pid|number|Pattern ID of trip currently being executed|
+ |rt|string|Route that is currently being executed by the vehicle (ex. “20”)|
+ |des|string| Destination of the trip being executed by the vehicle (ex. “Austin”)|
+
 
 | HTTP Verb     | End Point     | Description   |
 | -------------  | ------------- |-------------  |
