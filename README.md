@@ -79,20 +79,21 @@ Tracks the amount of personal carbon foot print reduction a user can achieve by 
  |des|string| Destination of the trip being executed by the vehicle (ex. “Austin”)|
 
 
-Network Request Outline
-Home Feed Screen
-(Read/GET) Main menu
-Choosing The Destination Screen
-(Read/GET) View bus routes 
-(Create/GET) Optional account creation or log in
-(Read/GET) The distance of the route
-Choosing The Exact Path Screen
-(Read/GET) Bus route/s options and times
-(Update/PUT) Update user profile image
-Total CO2 Emission Offset Screen
-(Read/GET) The total CO2 emission offset by choosing the green path for that trip
-(Read/GET) Optional for account holders; total amount of saved CO2 to date.
 
+Network Request Outline						
+						
+Home Feed Screen						
+	(Read/GET) Main menu					
+Choosing The Destination Screen						
+	(Read/GET) View bus routes					
+	(Create/GET) Optional account creation or log in					
+	(Read/GET) The distance of the route					
+Choosing The Exact Path Screen						
+	(Read/GET) Bus route/s options and times					
+	(Update/PUT) Update user profile image					
+Total CO2 Emission Offset Screen						
+	(Read/GET) The total CO2 emission offset by choosing the green path for that trip					
+	(Read/GET) Optional for account holders; total amount of saved CO2 to date.					
 
 
 
