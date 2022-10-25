@@ -1,5 +1,18 @@
 # Green Path Group Project #
+Unit 7:
+[X] Completed user stories.
+[X]  Project created
+[X]  Milestones created
+[X] Issues created from user stories
+[X] Issues added to project and assigned to specific team members
+[X] Updated status of issues in Project board
+[X] Sprint planned for next week
+[X] GIF of build project: 
 
+http://g.recordit.co/OTus4Rhnmp.gif
+
+
+Unit 5, Unit 6:
 ## Table of Contents
 1. [Overview](#Overview)
 1. [Product Spec](#Product-Spec)
