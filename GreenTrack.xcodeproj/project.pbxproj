@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00547FFB2907204E00902B6F /* NetworkManager.swift */; };
+		0097DFFD290B5EB500E091EF /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097DFFC290B5EB500E091EF /* MapViewViewController.swift */; };
 		00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */; };
 		00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */; };
 		00C2A8DF28FFC15E00D28793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DE28FFC15E00D28793 /* ViewController.swift */; };
@@ -17,6 +19,9 @@
 		00C2A8F528FFC15F00D28793 /* GreenTrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8F428FFC15F00D28793 /* GreenTrackTests.swift */; };
 		00C2A8FF28FFC15F00D28793 /* GreenTrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8FE28FFC15F00D28793 /* GreenTrackUITests.swift */; };
 		00C2A90128FFC15F00D28793 /* GreenTrackUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A90028FFC15F00D28793 /* GreenTrackUITestsLaunchTests.swift */; };
+		0DEE9BAB831762A7927BDFAF /* Pods_GreenTrack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEB3BA4B26FEB2C14203F068 /* Pods_GreenTrack.framework */; };
+		F6E8F16D5D5D87E74AAAEF2C /* Pods_GreenTrack_GreenTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7EFB91B39B2B1A5165F00C /* Pods_GreenTrack_GreenTrackUITests.framework */; };
+		F79C167600AA3A89FDDE8296 /* Pods_GreenTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC83A5FFF426FCD5DBBE047 /* Pods_GreenTrackTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00547FFB2907204E00902B6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		0097DFFC290B5EB500E091EF /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
 		00C2A8D728FFC15E00D28793 /* GreenTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		00C2A8FA28FFC15F00D28793 /* GreenTrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreenTrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C2A8FE28FFC15F00D28793 /* GreenTrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTrackUITests.swift; sourceTree = "<group>"; };
 		00C2A90028FFC15F00D28793 /* GreenTrackUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenTrackUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2F1447FE6A6185FB910B36FA /* Pods-GreenTrack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTrack.release.xcconfig"; path = "Target Support Files/Pods-GreenTrack/Pods-GreenTrack.release.xcconfig"; sourceTree = "<group>"; };
+		530964D329FEAF2CA603C2D4 /* Pods-GreenTrackTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTrackTests.release.xcconfig"; path = "Target Support Files/Pods-GreenTrackTests/Pods-GreenTrackTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD51630CB0B491941023152 /* Pods-GreenTrack-GreenTrackUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTrack-GreenTrackUITests.release.xcconfig"; path = "Target Support Files/Pods-GreenTrack-GreenTrackUITests/Pods-GreenTrack-GreenTrackUITests.release.xcconfig"; sourceTree = "<group>"; };
+		89611E8F3D3CD9F8052F70A0 /* Pods-GreenTrack-GreenTrackUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTrack-GreenTrackUITests.debug.xcconfig"; path = "Target Support Files/Pods-GreenTrack-GreenTrackUITests/Pods-GreenTrack-GreenTrackUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8EA0FF88A7B4C95E12F9A67D /* Pods-GreenTrackTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTrackTests.debug.xcconfig"; path = "Target Support Files/Pods-GreenTrackTests/Pods-GreenTrackTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EC83A5FFF426FCD5DBBE047 /* Pods_GreenTrackTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenTrackTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A48184DCA3B89C298062349D /* Pods-GreenTrack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GreenTrack.debug.xcconfig"; path = "Target Support Files/Pods-GreenTrack/Pods-GreenTrack.debug.xcconfig"; sourceTree = "<group>"; };
+		BD7EFB91B39B2B1A5165F00C /* Pods_GreenTrack_GreenTrackUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenTrack_GreenTrackUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEB3BA4B26FEB2C14203F068 /* Pods_GreenTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DEE9BAB831762A7927BDFAF /* Pods_GreenTrack.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F79C167600AA3A89FDDE8296 /* Pods_GreenTrackTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +90,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6E8F16D5D5D87E74AAAEF2C /* Pods_GreenTrack_GreenTrackUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00547FFA2907202800902B6F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				00547FFB2907204E00902B6F /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
 		00C2A8CE28FFC15E00D28793 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +112,8 @@
 				00C2A8F328FFC15F00D28793 /* GreenTrackTests */,
 				00C2A8FD28FFC15F00D28793 /* GreenTrackUITests */,
 				00C2A8D828FFC15E00D28793 /* Products */,
+				D2BD5D7F03FAD229720EDF5A /* Pods */,
+				4B88D6407FEBF3382FD9B3C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,7 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */,
+				00547FFA2907202800902B6F /* Network */,
 				00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */,
+				0097DFFC290B5EB500E091EF /* MapViewViewController.swift */,
 				00C2A8DE28FFC15E00D28793 /* ViewController.swift */,
 				00C2A8E028FFC15E00D28793 /* Main.storyboard */,
 				00C2A8E628FFC15F00D28793 /* Assets.xcassets */,
@@ -130,6 +161,29 @@
 			path = GreenTrackUITests;
 			sourceTree = "<group>";
 		};
+		4B88D6407FEBF3382FD9B3C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEB3BA4B26FEB2C14203F068 /* Pods_GreenTrack.framework */,
+				BD7EFB91B39B2B1A5165F00C /* Pods_GreenTrack_GreenTrackUITests.framework */,
+				9EC83A5FFF426FCD5DBBE047 /* Pods_GreenTrackTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2BD5D7F03FAD229720EDF5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A48184DCA3B89C298062349D /* Pods-GreenTrack.debug.xcconfig */,
+				2F1447FE6A6185FB910B36FA /* Pods-GreenTrack.release.xcconfig */,
+				89611E8F3D3CD9F8052F70A0 /* Pods-GreenTrack-GreenTrackUITests.debug.xcconfig */,
+				6BD51630CB0B491941023152 /* Pods-GreenTrack-GreenTrackUITests.release.xcconfig */,
+				8EA0FF88A7B4C95E12F9A67D /* Pods-GreenTrackTests.debug.xcconfig */,
+				530964D329FEAF2CA603C2D4 /* Pods-GreenTrackTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00C2A90428FFC15F00D28793 /* Build configuration list for PBXNativeTarget "GreenTrack" */;
 			buildPhases = (
+				66567C584A976B335A07C4C3 /* [CP] Check Pods Manifest.lock */,
 				00C2A8D328FFC15E00D28793 /* Sources */,
 				00C2A8D428FFC15E00D28793 /* Frameworks */,
 				00C2A8D528FFC15E00D28793 /* Resources */,
+				B6B5E4401F5BCD4232ACC09B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00C2A90728FFC15F00D28793 /* Build configuration list for PBXNativeTarget "GreenTrackTests" */;
 			buildPhases = (
+				756BD693FD2E534B65A179B5 /* [CP] Check Pods Manifest.lock */,
 				00C2A8EC28FFC15F00D28793 /* Sources */,
 				00C2A8ED28FFC15F00D28793 /* Frameworks */,
 				00C2A8EE28FFC15F00D28793 /* Resources */,
@@ -172,9 +229,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00C2A90A28FFC15F00D28793 /* Build configuration list for PBXNativeTarget "GreenTrackUITests" */;
 			buildPhases = (
+				35F68E61D871F640F0B23BDE /* [CP] Check Pods Manifest.lock */,
 				00C2A8F628FFC15F00D28793 /* Sources */,
 				00C2A8F728FFC15F00D28793 /* Frameworks */,
 				00C2A8F828FFC15F00D28793 /* Resources */,
+				00610826F254AAB2A6F8132B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -218,6 +277,9 @@
 				Base,
 			);
 			mainGroup = 00C2A8CE28FFC15E00D28793;
+			packageReferences = (
+				00C2A90D28FFC17000D28793 /* XCRemoteSwiftPackageReference "CocoaPods" */,
+			);
 			productRefGroup = 00C2A8D828FFC15E00D28793 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -256,13 +318,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00610826F254AAB2A6F8132B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenTrack-GreenTrackUITests/Pods-GreenTrack-GreenTrackUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenTrack-GreenTrackUITests/Pods-GreenTrack-GreenTrackUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenTrack-GreenTrackUITests/Pods-GreenTrack-GreenTrackUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35F68E61D871F640F0B23BDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenTrack-GreenTrackUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66567C584A976B335A07C4C3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenTrack-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		756BD693FD2E534B65A179B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GreenTrackTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6B5E4401F5BCD4232ACC09B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenTrack/Pods-GreenTrack-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GreenTrack/Pods-GreenTrack-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GreenTrack/Pods-GreenTrack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		00C2A8D328FFC15E00D28793 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0097DFFD290B5EB500E091EF /* MapViewViewController.swift in Sources */,
 				00C2A8DF28FFC15E00D28793 /* ViewController.swift in Sources */,
 				00C2A8E528FFC15E00D28793 /* GreenTrack.xcdatamodeld in Sources */,
+				00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */,
 				00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */,
 				00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */,
 			);
@@ -436,6 +603,7 @@
 		};
 		00C2A90528FFC15F00D28793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A48184DCA3B89C298062349D /* Pods-GreenTrack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +632,7 @@
 		};
 		00C2A90628FFC15F00D28793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F1447FE6A6185FB910B36FA /* Pods-GreenTrack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -492,6 +661,7 @@
 		};
 		00C2A90828FFC15F00D28793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EA0FF88A7B4C95E12F9A67D /* Pods-GreenTrackTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +682,7 @@
 		};
 		00C2A90928FFC15F00D28793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 530964D329FEAF2CA603C2D4 /* Pods-GreenTrackTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -532,6 +703,7 @@
 		};
 		00C2A90B28FFC15F00D28793 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89611E8F3D3CD9F8052F70A0 /* Pods-GreenTrack-GreenTrackUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +722,7 @@
 		};
 		00C2A90C28FFC15F00D28793 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BD51630CB0B491941023152 /* Pods-GreenTrack-GreenTrackUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -606,6 +779,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		00C2A90D28FFC17000D28793 /* XCRemoteSwiftPackageReference "CocoaPods" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CocoaPods/CocoaPods";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCVersionGroup section */
 		00C2A8E328FFC15E00D28793 /* GreenTrack.xcdatamodeld */ = {
