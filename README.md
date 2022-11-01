@@ -19,6 +19,10 @@ Unit 7:
 
 http://g.recordit.co/OTus4Rhnmp.gif
 
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/mAm6OExEig.gif' title='User can log in' width='' alt='Video Walkthrough' />
+
 
 Unit 5, Unit 6:
 ## Table of Contents
