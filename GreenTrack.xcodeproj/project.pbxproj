@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00547FFB2907204E00902B6F /* NetworkManager.swift */; };
-		0097DFFD290B5EB500E091EF /* MapViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0097DFFC290B5EB500E091EF /* MapViewViewController.swift */; };
+		007460112910995300437B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007460102910995300437B54 /* LoginViewController.swift */; };
+		0074601A2910A90300437B54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007460192910A90300437B54 /* MapViewController.swift */; };
 		00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */; };
 		00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */; };
-		00C2A8DF28FFC15E00D28793 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DE28FFC15E00D28793 /* ViewController.swift */; };
 		00C2A8E228FFC15E00D28793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00C2A8E028FFC15E00D28793 /* Main.storyboard */; };
 		00C2A8E528FFC15E00D28793 /* GreenTrack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8E328FFC15E00D28793 /* GreenTrack.xcdatamodeld */; };
 		00C2A8E728FFC15F00D28793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C2A8E628FFC15F00D28793 /* Assets.xcassets */; };
@@ -43,11 +43,11 @@
 
 /* Begin PBXFileReference section */
 		00547FFB2907204E00902B6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		0097DFFC290B5EB500E091EF /* MapViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewViewController.swift; sourceTree = "<group>"; };
+		007460102910995300437B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		007460192910A90300437B54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		00C2A8D728FFC15E00D28793 /* GreenTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		00C2A8DE28FFC15E00D28793 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00C2A8E128FFC15E00D28793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00C2A8E428FFC15E00D28793 /* GreenTrack.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GreenTrack.xcdatamodel; sourceTree = "<group>"; };
 		00C2A8E628FFC15F00D28793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -101,8 +101,17 @@
 			isa = PBXGroup;
 			children = (
 				00547FFB2907204E00902B6F /* NetworkManager.swift */,
+				007460142910A20D00437B54 /* Controllers */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		007460142910A20D00437B54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				007460102910995300437B54 /* LoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		00C2A8CE28FFC15E00D28793 = {
@@ -133,8 +142,7 @@
 				00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */,
 				00547FFA2907202800902B6F /* Network */,
 				00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */,
-				0097DFFC290B5EB500E091EF /* MapViewViewController.swift */,
-				00C2A8DE28FFC15E00D28793 /* ViewController.swift */,
+				007460192910A90300437B54 /* MapViewController.swift */,
 				00C2A8E028FFC15E00D28793 /* Main.storyboard */,
 				00C2A8E628FFC15F00D28793 /* Assets.xcassets */,
 				00C2A8E828FFC15F00D28793 /* LaunchScreen.storyboard */,
@@ -426,10 +434,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0097DFFD290B5EB500E091EF /* MapViewViewController.swift in Sources */,
-				00C2A8DF28FFC15E00D28793 /* ViewController.swift in Sources */,
+				007460112910995300437B54 /* LoginViewController.swift in Sources */,
 				00C2A8E528FFC15E00D28793 /* GreenTrack.xcdatamodeld in Sources */,
 				00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */,
+				0074601A2910A90300437B54 /* MapViewController.swift in Sources */,
 				00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */,
 				00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */,
 			);
