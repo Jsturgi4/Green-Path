@@ -18,6 +18,7 @@ class MapViewController: UIViewController {
     
     
     @IBAction func getDirectionsTapped(_ sender: Any) {
+        getAddress()
         
     }
     
@@ -27,13 +28,13 @@ class MapViewController: UIViewController {
         
         geoCoder.geocodeAddressString(address!) { (placemarks,error)
             in
-            guard let placeMarks = placemarks
-                    let location = placemarks?.first?.location
+            guard let placemarks = placemarks,
+            let location = placemarks.first?.location
             else {
                 print("No Location Found")
                 return
             }
-            print location
+            print(location)
         }
     }
     
