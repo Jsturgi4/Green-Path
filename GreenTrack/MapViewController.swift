@@ -8,19 +8,42 @@
 import UIKit
 import MapKit
 import CoreLocation
-class MapViewController: UIViewController {
+class MapViewController: UIViewController,CLLocationManagerDelegate {
 
+  
+    
     @IBOutlet weak var addressTextField: UITextField!
+    
     
     @IBOutlet weak var getDirections: UIButton!
     
     @IBOutlet weak var map: MKMapView!
     
-    
-    @IBAction func getDirectionsTapped(_ sender: Any) {
-        getAddress()
-        
+    @IBAction func getDirectionsButton(_ sender: Any) {
     }
+    var locationManager = CLLocationManager()
+    
+     
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestAlwaysAuthorization()
+        locationManager.requestWhenInUseAuthorization()
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
     
     func getAddress(){
         let geoCoder = CLGeocoder()
@@ -37,22 +60,4 @@ class MapViewController: UIViewController {
             print(location)
         }
     }
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

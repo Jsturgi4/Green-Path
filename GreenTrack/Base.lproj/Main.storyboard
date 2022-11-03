@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="beW-eW-rw9">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="u60-mx-uEy">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -365,45 +365,28 @@
         <!--Map View Controller-->
         <scene sceneID="V5v-rN-WNG">
             <objects>
-                <viewController id="u60-mx-uEy" customClass="mapViewController" customModule="GreenTrack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="u60-mx-uEy" customClass="MapViewController" customModule="GreenTrack" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="i5m-9c-HOX">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zwa-GH-B3Y">
-                                <rect key="frame" x="0.0" y="119" width="390" height="668"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="Zwa-GH-B3Y">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="From" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dq8-36-fLf">
-                                <rect key="frame" x="0.0" y="47" width="145" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="To" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VpX-oE-atH">
-                                <rect key="frame" x="164" y="47" width="133" height="34"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ZX-Lj-dts">
-                                <rect key="frame" x="327" y="47" width="51" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="tinted" title="Go!"/>
-                                <connections>
-                                    <action selector="getDirectionsTapped:" destination="u60-mx-uEy" eventType="touchUpInside" id="Y7k-6w-F7G"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="RYq-ki-Z4y"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Zwa-GH-B3Y" secondAttribute="bottom" constant="-28" id="6WE-tm-KdW"/>
+                            <constraint firstItem="Zwa-GH-B3Y" firstAttribute="top" secondItem="i5m-9c-HOX" secondAttribute="top" id="6ci-YC-aeu"/>
+                            <constraint firstItem="Zwa-GH-B3Y" firstAttribute="leading" secondItem="RYq-ki-Z4y" secondAttribute="leading" id="Gcr-QW-5di"/>
+                            <constraint firstItem="Zwa-GH-B3Y" firstAttribute="trailing" secondItem="RYq-ki-Z4y" secondAttribute="trailing" id="Y24-Nf-Kb4"/>
+                            <constraint firstItem="Zwa-GH-B3Y" firstAttribute="bottom" secondItem="RYq-ki-Z4y" secondAttribute="bottom" id="hi7-oF-3W0"/>
+                        </constraints>
                     </view>
                     <connections>
-                        <outlet property="addressTextField" destination="Dq8-36-fLf" id="FQZ-gE-ZUU"/>
-                        <outlet property="getDirections" destination="9ZX-Lj-dts" id="5fC-ol-9VS"/>
-                        <outlet property="map" destination="Zwa-GH-B3Y" id="TeJ-Hi-IiA"/>
+                        <outlet property="map" destination="Zwa-GH-B3Y" id="a4X-74-5Ev"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YsY-fG-MD3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -412,6 +395,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="nCp-JL-GZI"/>
         <segue reference="hBp-GK-cQg"/>
     </inferredMetricsTieBreakers>
     <resources>
