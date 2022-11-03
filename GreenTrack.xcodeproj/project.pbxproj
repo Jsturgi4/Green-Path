@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004E56A529122BFA00BCBBA6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56A429122BFA00BCBBA6 /* CustomTextField.swift */; };
+		004E56A729122DEC00BCBBA6 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56A629122DEC00BCBBA6 /* SignUpButton.swift */; };
+		004E56AB2912441300BCBBA6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56AA2912441300BCBBA6 /* SignInViewController.swift */; };
 		00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00547FFB2907204E00902B6F /* NetworkManager.swift */; };
 		007460112910995300437B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007460102910995300437B54 /* LoginViewController.swift */; };
 		0074601A2910A90300437B54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007460192910A90300437B54 /* MapViewController.swift */; };
@@ -42,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		004E56A429122BFA00BCBBA6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		004E56A629122DEC00BCBBA6 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
+		004E56AA2912441300BCBBA6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		00547FFB2907204E00902B6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		007460102910995300437B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		007460192910A90300437B54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -97,11 +103,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004E56A929123F8B00BCBBA6 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				004E56A429122BFA00BCBBA6 /* CustomTextField.swift */,
+				004E56A629122DEC00BCBBA6 /* SignUpButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
 		00547FFA2907202800902B6F /* Network */ = {
 			isa = PBXGroup;
 			children = (
 				00547FFB2907204E00902B6F /* NetworkManager.swift */,
-				007460142910A20D00437B54 /* Controllers */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -109,6 +123,7 @@
 		007460142910A20D00437B54 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				004E56AA2912441300BCBBA6 /* SignInViewController.swift */,
 				007460102910995300437B54 /* LoginViewController.swift */,
 			);
 			path = Controllers;
@@ -141,6 +156,8 @@
 			children = (
 				00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */,
 				00547FFA2907202800902B6F /* Network */,
+				004E56A929123F8B00BCBBA6 /* Buttons */,
+				007460142910A20D00437B54 /* Controllers */,
 				00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */,
 				007460192910A90300437B54 /* MapViewController.swift */,
 				00C2A8E028FFC15E00D28793 /* Main.storyboard */,
@@ -434,12 +451,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004E56A529122BFA00BCBBA6 /* CustomTextField.swift in Sources */,
 				007460112910995300437B54 /* LoginViewController.swift in Sources */,
 				00C2A8E528FFC15E00D28793 /* GreenTrack.xcdatamodeld in Sources */,
 				00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */,
 				0074601A2910A90300437B54 /* MapViewController.swift in Sources */,
+				004E56AB2912441300BCBBA6 /* SignInViewController.swift in Sources */,
 				00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */,
 				00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */,
+				004E56A729122DEC00BCBBA6 /* SignUpButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -613,15 +633,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A48184DCA3B89C298062349D /* Pods-GreenTrack.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WA79WBB982;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GreenTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -642,15 +662,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2F1447FE6A6185FB910B36FA /* Pods-GreenTrack.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = WA79WBB982;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GreenTrack/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
