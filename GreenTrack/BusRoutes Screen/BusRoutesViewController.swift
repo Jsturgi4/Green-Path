@@ -14,6 +14,16 @@ class BusRoutesViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         print("Bus route page lanching...")
+        getAPIData()
+    }
+    
+    func getAPIData(){
+        API.getBuses() { (buses) in
+            guard let buses = buses else {
+                return
+            }
+        }
+        print(buses.self())
     }
     
 

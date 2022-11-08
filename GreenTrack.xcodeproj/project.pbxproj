@@ -28,6 +28,8 @@
 		F6E8F16D5D5D87E74AAAEF2C /* Pods_GreenTrack_GreenTrackUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD7EFB91B39B2B1A5165F00C /* Pods_GreenTrack_GreenTrackUITests.framework */; };
 		F79C167600AA3A89FDDE8296 /* Pods_GreenTrackTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EC83A5FFF426FCD5DBBE047 /* Pods_GreenTrackTests.framework */; };
 		FFD1533C291A53AB00F290DF /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD1533B291A53AB00F290DF /* Package.swift */; };
+		FFD15341291A590500F290DF /* Bus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD15340291A590500F290DF /* Bus.swift */; };
+		FFD15343291A5AE900F290DF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFD15342291A5AE900F290DF /* API.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +82,8 @@
 		EEB3BA4B26FEB2C14203F068 /* Pods_GreenTrack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GreenTrack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFD1533B291A53AB00F290DF /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		FFD1533E291A53D000F290DF /* Green-Path */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Green-Path"; sourceTree = "<group>"; };
+		FFD15340291A590500F290DF /* Bus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bus.swift; sourceTree = "<group>"; };
+		FFD15342291A5AE900F290DF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				00547FFB2907204E00902B6F /* NetworkManager.swift */,
+				FFD15342291A5AE900F290DF /* API.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			isa = PBXGroup;
 			children = (
 				00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */,
+				FFD1533F291A58F100F290DF /* Model */,
 				00547FFA2907202800902B6F /* Network */,
 				004E56A929123F8B00BCBBA6 /* Buttons */,
 				007460142910A20D00437B54 /* Sign Up Screen */,
@@ -258,6 +264,14 @@
 				FFD1533E291A53D000F290DF /* Green-Path */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		FFD1533F291A58F100F290DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FFD15340291A590500F290DF /* Bus.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -508,9 +522,11 @@
 				007460112910995300437B54 /* LoginViewController.swift in Sources */,
 				00C2A8E528FFC15E00D28793 /* GreenTrack.xcdatamodeld in Sources */,
 				00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */,
+				FFD15343291A5AE900F290DF /* API.swift in Sources */,
 				0074601A2910A90300437B54 /* MapViewController.swift in Sources */,
 				004E56AB2912441300BCBBA6 /* SignUpViewController.swift in Sources */,
 				005DEEC02919F1870064752A /* ProfileViewController.swift in Sources */,
+				FFD15341291A590500F290DF /* Bus.swift in Sources */,
 				00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */,
 				00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */,
 				004E56A729122DEC00BCBBA6 /* SignUpButton.swift in Sources */,
