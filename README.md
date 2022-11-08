@@ -24,6 +24,7 @@ Here's a walkthrough of implemented user stories:
 <img src='http://g.recordit.co/ucxdqQ9JNd.gif' title='User can log in' width='' alt='Video Walkthrough' />
 
 <img src='http://g.recordit.co/Q9jriT9dYr.gif' title='User can sign in with name and email' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/Q9jriT9dYr.gif' title='Users are authenthicated before logging in' width='' alt='Video Walkthrough' />
 
 
 Unit 5, Unit 6:
