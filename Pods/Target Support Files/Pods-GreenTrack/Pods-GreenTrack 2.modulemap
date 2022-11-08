@@ -1,0 +1,6 @@
+framework module Pods_GreenTrack {
+  umbrella header "Pods-GreenTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}

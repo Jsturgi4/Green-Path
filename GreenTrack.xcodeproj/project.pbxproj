@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		004E56A529122BFA00BCBBA6 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56A429122BFA00BCBBA6 /* CustomTextField.swift */; };
 		004E56A729122DEC00BCBBA6 /* SignUpButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56A629122DEC00BCBBA6 /* SignUpButton.swift */; };
-		004E56AB2912441300BCBBA6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56AA2912441300BCBBA6 /* SignInViewController.swift */; };
+		004E56AB2912441300BCBBA6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004E56AA2912441300BCBBA6 /* SignUpViewController.swift */; };
 		00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00547FFB2907204E00902B6F /* NetworkManager.swift */; };
+		005DEEB92919EDFF0064752A /* BusRoutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005DEEB82919EDFF0064752A /* BusRoutesViewController.swift */; };
+		005DEEC02919F1870064752A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 005DEEBF2919F1870064752A /* ProfileViewController.swift */; };
 		007460112910995300437B54 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007460102910995300437B54 /* LoginViewController.swift */; };
 		0074601A2910A90300437B54 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007460192910A90300437B54 /* MapViewController.swift */; };
 		00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */; };
@@ -47,8 +49,10 @@
 /* Begin PBXFileReference section */
 		004E56A429122BFA00BCBBA6 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 		004E56A629122DEC00BCBBA6 /* SignUpButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpButton.swift; sourceTree = "<group>"; };
-		004E56AA2912441300BCBBA6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		004E56AA2912441300BCBBA6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		00547FFB2907204E00902B6F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		005DEEB82919EDFF0064752A /* BusRoutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusRoutesViewController.swift; sourceTree = "<group>"; };
+		005DEEBF2919F1870064752A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		007460102910995300437B54 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		007460192910A90300437B54 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		00C2A8D728FFC15E00D28793 /* GreenTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreenTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,13 +124,43 @@
 			path = Network;
 			sourceTree = "<group>";
 		};
-		007460142910A20D00437B54 /* Controllers */ = {
+		005DEEBA2919EE4F0064752A /* BusRoutes Screen */ = {
 			isa = PBXGroup;
 			children = (
-				004E56AA2912441300BCBBA6 /* SignInViewController.swift */,
+				005DEEB82919EDFF0064752A /* BusRoutesViewController.swift */,
+			);
+			path = "BusRoutes Screen";
+			sourceTree = "<group>";
+		};
+		005DEEBC2919EE710064752A /* Login Screen */ = {
+			isa = PBXGroup;
+			children = (
 				007460102910995300437B54 /* LoginViewController.swift */,
 			);
-			path = Controllers;
+			path = "Login Screen";
+			sourceTree = "<group>";
+		};
+		005DEEBD2919EF630064752A /* Map Screen */ = {
+			isa = PBXGroup;
+			children = (
+				007460192910A90300437B54 /* MapViewController.swift */,
+			);
+			path = "Map Screen";
+			sourceTree = "<group>";
+		};
+		005DEEBE2919EF7B0064752A /* Profile Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Profile Screen";
+			sourceTree = "<group>";
+		};
+		007460142910A20D00437B54 /* Sign Up Screen */ = {
+			isa = PBXGroup;
+			children = (
+				004E56AA2912441300BCBBA6 /* SignUpViewController.swift */,
+			);
+			path = "Sign Up Screen";
 			sourceTree = "<group>";
 		};
 		00C2A8CE28FFC15E00D28793 = {
@@ -157,9 +191,13 @@
 				00C2A8DA28FFC15E00D28793 /* AppDelegate.swift */,
 				00547FFA2907202800902B6F /* Network */,
 				004E56A929123F8B00BCBBA6 /* Buttons */,
-				007460142910A20D00437B54 /* Controllers */,
+				007460142910A20D00437B54 /* Sign Up Screen */,
+				005DEEBA2919EE4F0064752A /* BusRoutes Screen */,
+				005DEEBC2919EE710064752A /* Login Screen */,
+				005DEEBD2919EF630064752A /* Map Screen */,
+				005DEEBE2919EF7B0064752A /* Profile Screen */,
 				00C2A8DC28FFC15E00D28793 /* SceneDelegate.swift */,
-				007460192910A90300437B54 /* MapViewController.swift */,
+				005DEEBF2919F1870064752A /* ProfileViewController.swift */,
 				00C2A8E028FFC15E00D28793 /* Main.storyboard */,
 				00C2A8E628FFC15F00D28793 /* Assets.xcassets */,
 				00C2A8E828FFC15F00D28793 /* LaunchScreen.storyboard */,
@@ -451,12 +489,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005DEEB92919EDFF0064752A /* BusRoutesViewController.swift in Sources */,
 				004E56A529122BFA00BCBBA6 /* CustomTextField.swift in Sources */,
 				007460112910995300437B54 /* LoginViewController.swift in Sources */,
 				00C2A8E528FFC15E00D28793 /* GreenTrack.xcdatamodeld in Sources */,
 				00547FFC2907204E00902B6F /* NetworkManager.swift in Sources */,
 				0074601A2910A90300437B54 /* MapViewController.swift in Sources */,
-				004E56AB2912441300BCBBA6 /* SignInViewController.swift in Sources */,
+				004E56AB2912441300BCBBA6 /* SignUpViewController.swift in Sources */,
+				005DEEC02919F1870064752A /* ProfileViewController.swift in Sources */,
 				00C2A8DB28FFC15E00D28793 /* AppDelegate.swift in Sources */,
 				00C2A8DD28FFC15E00D28793 /* SceneDelegate.swift in Sources */,
 				004E56A729122DEC00BCBBA6 /* SignUpButton.swift in Sources */,
