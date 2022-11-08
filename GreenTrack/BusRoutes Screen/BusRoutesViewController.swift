@@ -13,6 +13,7 @@ class BusRoutesViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        print("Bus route page lanching...")
     }
     
 

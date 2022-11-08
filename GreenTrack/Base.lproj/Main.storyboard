@@ -377,7 +377,7 @@
                                 </buttonConfiguration>
                                 <connections>
                                     <action selector="performGoSegue:" destination="u60-mx-uEy" eventType="touchUpInside" id="O0L-1O-YvY"/>
-                                    <segue destination="SsE-Af-swz" kind="push" identifier="goSegue" id="0qV-UQ-qbF"/>
+                                    <segue destination="SsE-Af-swz" kind="show" identifier="goSegue" id="aaL-KL-kUA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NoG-fF-oEx">
@@ -477,13 +477,14 @@
         <!--Bus Routes View Controller-->
         <scene sceneID="Yfp-B2-q2t">
             <objects>
-                <viewController id="SsE-Af-swz" customClass="BusRoutesViewController" customModule="GreenTrack" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="SsE-Af-swz" customClass="BusRoutesViewController" customModule="GreenTrack" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="70k-mG-GgB">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="787"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="Djh-Cx-Vvn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="PwW-6Y-ub5"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zNt-yo-SHl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
