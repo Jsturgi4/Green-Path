@@ -25,6 +25,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src='http://g.recordit.co/Q9jriT9dYr.gif' title='User can sign in with name and email' width='' alt='Video Walkthrough' />
 <img src='http://g.recordit.co/Q9jriT9dYr.gif' title='Users are authenthicated before logging in' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/I2PpGkRG3d' title='Users can log out and stay logge in across restarts' width='' alt='Video Walkthrough' />
+
 
 
 Unit 5, Unit 6:
