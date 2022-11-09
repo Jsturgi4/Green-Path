@@ -22,7 +22,9 @@ class ProfileViewController: UIViewController {
     
     func setName() {
         let currentUser = PFUser.current()!
-        let name = "\(currentUser["firstName"] as! String) \(currentUser["lastName"] as! String)"
+        let firstName = currentUser["firstName"] ?? "Test"
+        let lastName = currentUser["lastName"] ?? "User"
+        let name = "\(firstName) \(lastName)"
         nameOfUser.text = name
     }
     override func viewDidLoad() {
